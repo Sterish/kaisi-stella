@@ -1,0 +1,53 @@
+body{
+    margin: 0cm;
+    border: 0cm;
+}
+.profilepik{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    margin-left: 60px;
+    margin-right: 0px;
+}
+.header2 ul,footer{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.header2 a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+.header2 a:active{
+    color: black;
+}
+.post{
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    border:1px rgb(216, 215, 215) solid;
+    padding: 10px;
+}
+.pic{
+    width: 500px;
+    height: 500px;
+}
+.content{
+    padding-left: 10px;
+}
+.handle{
+    color: gray;
+}
